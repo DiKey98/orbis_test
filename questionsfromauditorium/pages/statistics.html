@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/statistics.css" rel="stylesheet">
+    <link href="../css/commonstyles.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>Статистика</title>
+</head>
+
+<body>
+
+<button id="tolistener" type="button" class="btn btn-outline-primary">Слушатель</button>
+<button id="tomoderator" type="button" class="btn btn-outline-secondary">Модератор</button>
+<button id="tospeaker" type="button" class="btn btn-outline-success">Докладчик</button>
+<button id="tostatistics" type="button" class="btn btn-outline-info">Статистика</button>
+
+<div id="pagedescription" class="container">
+    Статистика
+</div>
+
+<div id="statisticscontainer" class="container">
+<table class="table table-striped">
+<thead>
+<tr>
+  <th>#</th>
+  <th>Вопрос</th>
+  <th>Статус</th>
+</tr>
+</thead>
+    <tbody id="statisticstable">
+    </tbody>
+</table>
+</div>
+
+<div id="navigation" class="container">
+    <nav aria-label="...">
+        <ul id="nav" class="pagination">
+
+        </ul>
+    </nav>
+</div>
+
+</body>
+
+<script src="../jquery/jquery-3.2.1.js"></script>
+<script src="../js/statistics.js"></script>
+<script src="../js/utils.js"></script>
+<script src="../js/pagesmenu.js"></script>
+</html>

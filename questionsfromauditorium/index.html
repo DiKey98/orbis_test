@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
+    <link href="./css/commonstyles.css" rel="stylesheet">
+    <title>Страница слушателей</title>
+</head>
+<body>
+
+<button id="tolistener" type="button" class="btn btn-outline-primary">Слушатель</button>
+<button id="tomoderator" type="button" class="btn btn-outline-secondary">Модератор</button>
+<button id="tospeaker" type="button" class="btn btn-outline-success">Докладчик</button>
+<button id="tostatistics" type="button" class="btn btn-outline-info">Статистика</button>
+
+<div id="pagedescription" class="container">
+    Страница слушателей
+</div>
+    <div class="container">
+        <form id="questionform" action="./php/addquestion.php">
+            <div id="qu" class="form-group container">
+                <label for="questioninput">Вопрос</label>
+                <input
+                        type="text"
+                        class="form-control"
+                        id="questioninput"
+                        placeholder="Введите Ваш вопрос"
+                        name="question">
+                <button
+                        id="submitquestion"
+                        type="submit"
+                        class="btn btn-primary">Отправить
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="./jquery/jquery-3.2.1.js"></script>
+<script src="./js/index.js"></script>
+<script src="js/menuindex.js"></script>
+<script src="js/utils.js"></script>
+<script src="jquery/jquery.cookie.js"></script>
+</html>

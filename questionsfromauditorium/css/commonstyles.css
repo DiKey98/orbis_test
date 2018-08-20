@@ -1,0 +1,11 @@
+body
+{
+    background: lightgray !important;
+}
+
+#pagedescription
+{
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 80px;
+}

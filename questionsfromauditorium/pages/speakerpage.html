@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/speaker.css" rel="stylesheet">
+    <link href="../css/commonstyles.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>Страница докладчика</title>
+</head>
+<body>
+
+<button id="tolistener" type="button" class="btn btn-outline-primary">Слушатель</button>
+<button id="tomoderator" type="button" class="btn btn-outline-secondary">Модератор</button>
+<button id="tospeaker" type="button" class="btn btn-outline-success">Докладчик</button>
+<button id="tostatistics" type="button" class="btn btn-outline-info">Статистика</button>
+
+<button id="logout" type="button" class="btn btn-outline-info">Выход</button>
+
+<div id="pagedescription" class="container">
+    Страница докладчика
+</div>
+
+<div id="approvedscontainer" class="container">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Вопрос</th>
+            <th>Актуальный</th>
+        </tr>
+        </thead>
+        <tbody id="approvedtable">
+        </tbody>
+    </table>
+</div>
+
+</body>
+<script src="../jquery/jquery-3.2.1.js"></script>
+<script src="../js/speaker.js"></script>
+<script src="../js/utils.js"></script>
+<script src="../js/pagesmenu.js"></script>
+<script src="../jquery/jquery.cookie.js"></script>
+</html>

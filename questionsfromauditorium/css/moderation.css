@@ -1,0 +1,30 @@
+#questionscontainer
+{
+    margin-top: 50px;
+}
+
+.question
+{
+    margin-top: 30px;
+}
+
+#answeredCheckbox
+{
+    margin-top: 10px;
+}
+
+.appr
+{
+    background: green !important;
+}
+
+.rej
+{
+    background: red !important;
+    margin-left: 20px;
+}
+
+#logout
+{
+    float: right;
+}

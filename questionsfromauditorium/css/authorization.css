@@ -1,0 +1,21 @@
+#authorizationformcontainer
+{
+    margin-top: 100px;
+    width: 30%;
+}
+
+#inputPassword
+{
+    margin-top: 20px;
+}
+
+#inputPasswordLabel
+{
+    margin-top: 20px;
+}
+
+#authButton
+{
+    margin-top: 20px;
+    width: 100px;
+}
